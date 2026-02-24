@@ -50,9 +50,9 @@ subprojects {
 dependencies {
     implementation fileTree(rootProject.archiveFolder.getAbsolutePath())
 
-    compileOnly "com.bgsoftware.common.config:CommentedConfiguration:b1"
+    implementation "com.bgsoftware.common.config:CommentedConfiguration:b1"
     compileOnly 'com.bgsoftware.common.reflection:ReflectionUtils:b6'
-    compileOnly 'com.bgsoftware.common.nmsloader:NMSLoader:b16'
+    implementation 'com.bgsoftware.common.nmsloader:NMSLoader:b16'
 
     compileOnly 'com.bgsoftware:SuperiorSkyblockAPI:2024.3'
 
